@@ -1,93 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pinteres</title>
-    <style>
-
-        .container{
-            display: grid;
-            grid-template-columns: repeat(auto-fill,250px);
-            grid-gap: 5px;
-            justify-content: center;
-        }
-        .item{
-            border-radius: 5px;
-            padding: 10px;
-            background: #f2f2f2;
-
-        }
-
-        .item img{
-            max-width: 100%;
-        }
-
-        .level-1{
-            grid-row-end: span 3 ;
-        }
-
-        .level-2{
-            grid-row-end: span 2 ; 
-        }
-
-        .level-3{
-            grid-row-end: span 1 ;
-        }
-        
-
-        
-
-    </style>
-
+    <title>Wilson Capacho</title>
+    <link rel="icon" type="image/png" href="images/favicon.webp">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/estilos.css">
+    
 </head>
 <body>
-    <div class="container">
-        <div class="item level-1">
-            <img src="images/landing.webp" alt="">
+     <header class="header">
+        <div class="container">
+        <figure class="logo">
+                <img src="images/loguito.webp" height="50" alt="logo " />
+        </figure>
+        <nav class="menu">
+            <ol>
+                <li>
+                    <a href="../portafolio/portafolio.html">Portafolio</a>
+                </li>
+                <li>
+                    <a href="#eventos" >Eperiencia</a>
+                </li>
+                <li>
+                    <a href="#contacto" >Trabajemos juntos</a>
+                </li>
+            </ol>
+        </nav>  
         </div>
-        <div class="item level-2">
-            <img src="images/tshirt.webp" alt="">
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>
+                hola soy <strong>Wilson Capacho</strong> <br> desarrollador front end <strong>css</strong> <br> con pasion por el <strong>Aprendizaje</strong>
+            </h1>
+            <img class="hero-img" src="images/hero.jpg" alt="logo de " width="400px" alt="imagen principal del sitio" />
         </div>
-        <div class="item level-3">
-            <img src="images/house.webp" alt="">
+        
+    </section>  
+
+     <section id="portafolio" class="porfolio">
+        <div class="container">
+            <h2>Portafolio (proyectos destacados)</h2>
+            <article class="project">
+                <div class="project-details">
+                <h3 class="project-tittle">platzi video</h3>
+                <h6 class="project-course">React Native</h6>
+                <p class="project-data"><small> <strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url">  <small><strong>Puedes verlo en:</strong> <a href="">www.platzi.com</a></small>  </p>
+                <p class="project-description"> Los formularios son más que el medio para capturar datos. Son la principal herramienta de comunicación entre nuestra aplicación y el usuario. Por lo tanto, es indispensable entender el flujo de interacción y el uso correcto de los elementos en el diseño cuando creamos un formulario. Ahí radica la diferencia entre adquirir un nuevo cliente o perderlo. En este artículo analizaremos un caso de éxito de un formulario en una web. Aprenderás cómo crear un formulario que convierta, en lugar de ahuyentar a tus clientes. ¡Comencemos! Los dos pilares que soportan el éxito de un formulario son los mismos de una buena comunicación:</p>
+                </div>
+                
+                <figure class="project-imageContainer">
+                    <img class="project-image"" src="images/platzi-video-react-native.webp" alt="proyecto platzivideo en recat native" width="500" />
+                </figure>
+                
+                
+                
+            </article>
+    
+            <article class="project">
+                <div class="project-details">
+                <h3 class="project-title">platzi video</h3>
+                <h6 class="project-course">React Native</h6>
+                <p class="project-data"><small> <strong>Fecha:</strong> 01/07/2018</small></p>
+                <p class="project-url">  <small><strong>Puedes verlo en:</strong> <a href="">www.platzi.com</a></small>  </p>
+                <p class="project-description"> Los formularios son más que el medio para capturar datos. Son la principal herramienta de comunicación entre nuestra aplicación y el usuario. Por lo tanto, es indispensable entender el flujo de interacción y el uso correcto de los elementos en el diseño cuando creamos un formulario. Ahí radica la diferencia entre adquirir un nuevo cliente o perderlo. En este artículo analizaremos un caso de éxito de un formulario en una web. Aprenderás cómo crear un formulario que convierta, en lugar de ahuyentar a tus clientes. ¡Comencemos! Los dos pilares que soportan el éxito de un formulario son los mismos de una buena comunicación:</p>
+                </div>
+                
+                <figure class="project-imageContainer">
+                    <img class="project-image"" src="images/platzi-video-react-native.webp" alt="proyecto platzivideo en recat native" width="500" />
+                </figure>
+                
+                
+                
+            </article>
         </div>
-        <div class="item level-1">
-            <img src="images/landing.webp" alt="">
+
+
+    </section>  
+
+     <div class="container">
+        <h2 class="event-list-tittle">Mas sobre mi experiencia</h2>
+    </div> 
+    
+   <section id="eventos" class="event-list">
+       <div class="container">
+        <article class="event">
+            <figure class="event-imageContainer">
+                <img class="event-image" src="images/platzi-conf.webp" alt="logo de " width="400px" alt="imagen principal del sitio" />
+            </figure>
+            <div class="event-detail">
+             <h3 class="event-title">platzi conf mexico 2018</h3>
+             <p class="event-description">Los formularios son más que el medio para capturar datos. Son la principal herramienta de comunicación entre nuestra aplicación y el usuario. Por lo tanto, es indispensable entender el flujo de interacción y el uso correcto de los elementos en el diseño</p>
+                  <a class="event-url" href="https://youtu.be/qDfD_EjSnTE" target="_blank">ver platica</a>   
+            </div>
+           
+         </article>
+ 
+         <article class="event">
+             <figure class="event-imageContainer">
+                 <img class="event-image" src="images/platzi-conf.webp" alt="logo de " width="400px" alt="imagen principal del sitio" />
+             </figure>
+             <div class="event-detail">
+                 <h3 class="event-title">platzi conf mexico 2018</h3>
+                 <p class="event-description">Los formularios son más que el medio para capturar datos. Son la principal herramienta de comunicación entre nuestra aplicación y el usuario. Por lo tanto, es indispensable entender el flujo de interacción y el uso correcto de los elementos en el diseño</p>
+                      <a class="event-url" href="https://youtu.be/qDfD_EjSnTE" target="_blank">ver platica</a>   
+                </div>
+            
+          </article>
+ 
+          <article class="event">
+             <figure class="event-imageContainer">
+                 <img class="event-image" src="images/platzi-conf.webp" alt="logo de " width="400px" alt="imagen principal del sitio" />
+             </figure>
+             <div class="event-detail">
+                 <h3 class="event-title">platzi conf mexico 2018</h3>
+                 <p class="event-description">Los formularios son más que el medio para capturar datos. Son la principal herramienta de comunicación entre nuestra aplicación y el usuario. Por lo tanto, es indispensable entender el flujo de interacción y el uso correcto de los elementos en el diseño</p>
+                      <a class="event-url" href="https://youtu.be/qDfD_EjSnTE" target="_blank">ver platica</a>   
+                </div>
+            
+          </article>
+ 
+          <article class="event">
+             <figure class="event-imageContainer">
+                 <img class="event-image" src="images/platzi-conf.webp" alt="logo de " width="400px" alt="imagen principal del sitio" />
+             </figure>
+             <div class="event-detail">
+              <h3 class="event-title">platzi conf mexico 2018</h3>
+              <p class="event-description">Los formularios son más que el medio para capturar datos. Son la principal herramienta de comunicación entre nuestra aplicación y el usuario. Por lo tanto, es indispensable entender el flujo de interacción y el uso correcto de los elementos en el diseño</p>
+                   <a class="event-url" href="https://youtu.be/qDfD_EjSnTE" target="_blank">ver platica</a>   
+             </div>
+            
+          </article>
+       </div>
+        
+    </section >
+    
+    <section id="contacto" class="contact">
+        <div class="container">
+            <form action="/suscripcion/" class="form-email">
+                <h3>Creamos algo juntos?</h3>
+                <input type="text" placeholder="Dejame tu Email" value="@email" id="email"> 
+                <button>Enviar</button>
+                </form>
+                <div class="social">
+                    <a href="https://www.facebook.com/leopoldo123456" class="social-link facebook"></a>
+                    <a href="https://www.facebook.com/leopoldo123456" class="social-link instagram"></a>
+                    <a href="https://www.facebook.com/leopoldo123456" class="social-link twitter"></a>
+                    <a href="https://www.facebook.com/leopoldo123456" class="social-link github"></a>
+                </div>
         </div>
-        <div class="item level-2">
-            <img src="images/tshirt.webp" alt="">
+        
+    </section> 
+    
+    <footer class="footer">
+        <div><p>Curso de desarrollo wen online <img src="images/platzi.png" width="80" alt="Platzi"></p></div>
+        <div>
+            <p>Desinag with <\3 by <a href="https://twitter.com/thespinartist"></a>@thespinartist </p> 
         </div>
-        <div class="item level-3">
-            <img src="images/house.webp" alt="">
-        </div>
-        <div class="item level-1">
-            <img src="images/landing.webp" alt="">
-        </div>
-        <div class="item level-2">
-            <img src="images/tshirt.webp" alt="">
-        </div>
-        <div class="item level-3">
-            <img src="images/house.webp" alt="">
-        </div>
-        <div class="item level-1">
-            <img src="images/landing.webp" alt="">
-        </div>
-        <div class="item level-2">
-            <img src="images/tshirt.webp" alt="">
-        </div>
-        <div class="item level-3">
-            <img src="images/house.webp" alt="">
-        </div>
-        <div class="item level-1">
-            <img src="images/landing.webp" alt="">
-        </div>
-        <div class="item level-2">
-            <img src="images/tshirt.webp" alt="">
-        </div>
-        <div class="item level-3">
-            <img src="images/house.webp" alt="">
-        </div>
-    </div>
+    </footer>
+
+
+
+
+
+
+
 </body>
 </html>
